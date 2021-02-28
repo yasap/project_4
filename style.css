@@ -680,6 +680,7 @@ p {
     font-size: 12px;
 }
 
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -829,11 +830,11 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlanta-made-sign.jpg");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta-made-sign-orange.png");
 }
 
 @media (max-width: 1024px) {

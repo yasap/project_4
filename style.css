@@ -791,7 +791,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #BB2207;
     color: #FFFFFF!important;
 }
 
@@ -1038,6 +1038,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
+  
 }
 
 @media (max-width: 400px) {
@@ -1051,4 +1052,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+.imagetext {
+    font-size: 4rem !important;
+
 }

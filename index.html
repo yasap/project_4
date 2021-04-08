@@ -13,21 +13,15 @@
 	<noscript> <link rel="stylesheet" href="style.css"> </noscript>
 	<link rel="preload"  as="style" onload="this.onload=null;this.rel='stylesheet'"  href="css/font-awesome.css">
     <noscript> <link rel="stylesheet" href="css/font-awesome.css"> </noscript>
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+ <link rel="preload" as="style" href="css/bootstrap.css" onload="this.onload=null;this.rel='stylesheet'">
+ <noscript><link rel="stylesheet" href="css/bootstrap.css"></noscript>
+ <link rel="preload" as="font" type="font/woff2" href="fonts/fontawesome-webfont.woff2?v=4.7.0" crossorigin>
 
 	<!-- <link rel="stylesheet" type="text/css" href="./css/et-line.css"> --> 
 	
     
 	
     <title>GoMike Web Designs</title>
-
-
-    
-<!-- Analytics -->
- 
-<!-- Analytics END -->
-</head>
-<body>
 	<style type="text/css">
 	html {
     font-family: sans-serif;
@@ -752,8 +746,21 @@ p {
     clip: rect(0, 0, 0, 0);
     border: 0
 }
+.img-responsive{
+    width: 360px;
+    height: auto;
+}
 
 </style>
+
+    
+<!-- Analytics -->
+ 
+<!-- Analytics END -->
+</head>
+
+<body>
+
 <!-- Main container -->
 <div class="page-container">
     
@@ -762,7 +769,7 @@ p {
 	<div class="container ">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/atlanta-web-design-logo.webp" alt="goMike web design Logo" width="200" height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/atlanta-web-design-logo.webp" alt="goMike web design Logo" width="214" height="40" /></a>
 
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
@@ -786,11 +793,11 @@ p {
 <!-- bloc-0 END -->
 
 <!-- bloc-1-hero -->
-<div class="bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
+<div class="bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bg-t-edge bloc-bg-texture b-parallax" id="bloc-1-hero">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12 text-center">
-				<img src="img/atlantawebdesignermike.png" class="mx-auto image-resize-mode" width="100" height="100" alt="atlanta web disigner mike " />
+				<img src="img/atlantawebdesignermike.png" class="mx-auto image-resize-mode" width="98" height="100" alt="atlanta web disigner mike " />
 				<h1 class="text-center hero-bloc-text tc-white ">
 					I'm Mike.
 				</h1>
@@ -804,14 +811,14 @@ p {
 <!-- bloc-1-hero END -->
 
 <!-- bloc-2-services -->
-<div class="bloc bgc-white l-bloc" id="bloc-2-services">
+<div class="bgc-white l-bloc" id="bloc-2-services">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
 				<p class="imagetext"> I create website and design graphics that help atlanta companies become attractive and recongnizable online. </p>
 			</div>
 		</div>
-		<div class="row voffset-lg med-width-whitespace">
+		<div class="row voffset-lg text-center">
 			<div class="col-sm-4">
 				<div class="text-center">
 					<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
@@ -847,7 +854,7 @@ p {
 			</div>
 		</div>
 		<div class="row voffset-lg voffset">
-			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center mx-auto">
 				<p class="imagetext"> Mike's an awesome freelance web designer he help us double our online sale for our shop in Atlanta.</p>
 			</div>
 		</div>
@@ -856,7 +863,7 @@ p {
 <!-- bloc-2-services END -->
 
 <!-- bloc-3-what-i-do -->
-<div class="bloc tc-white bgc-atomic-tangerine bloc-bg-texture texture-paper b-parallax bg-atlanta-20made-20sign-20orange d-bloc" id="bloc-3-what-i-do">
+<div class="tc-white bgc-atomic-tangerine bloc-bg-texture b-parallax bg-atlanta-20made-20sign-20orange d-bloc" id="bloc-3-what-i-do">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
@@ -873,7 +880,7 @@ p {
 <!-- bloc-3-what-i-do END -->
 
 <!-- bloc-4-portfolio -->
-<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc mx-auto" id="bloc-4-portfolio">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
@@ -1018,7 +1025,6 @@ p {
 </div>
 <!-- Main container END -->
     
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-</body>
+	<script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
 </html>

@@ -570,11 +570,15 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta-made-sign.webp");
+    background-image: url("img/atlanta-made-sign.png");
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta-made-sign-orange.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 1024px) {

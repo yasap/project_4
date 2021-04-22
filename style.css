@@ -210,7 +210,6 @@ a:hover {
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -355,12 +354,10 @@ a[data-lightbox]:hover::before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
 
@@ -607,12 +604,12 @@ h4 {
         background-attachment: scroll;
     }
     .image-resize-mode{
-        height: 200 !important;
+        height: 200px !important;
         width: 196px !important;
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -651,8 +648,6 @@ h4 {
     .site-navigation {
         position: inherit;
         transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
     }
     .nav > li {
         margin-top: 0;
